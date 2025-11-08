@@ -1,0 +1,1 @@
+# Currently there is no use of entities.py bcz this application is just to update the table fields.

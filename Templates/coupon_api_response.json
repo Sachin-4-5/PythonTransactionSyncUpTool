@@ -1,0 +1,26 @@
+{
+	"couponDataByAssetId": {
+		"ADSB123SK": {
+			"assetId": "ADSB123SK",
+			"couponByEffectiveDate": {
+				"2025-09-01": {
+					"@type": "https://www.example.com/Coupon/CouponRecords",
+					"cpn": 4.5
+					"cpnEffectiveDate": "2025-09-01",
+					"secGroup": "CASH",
+					"secType": "LLB",
+					"cpnSource": "ADM"
+				},
+				
+				"2025-09-02": {
+					"@type": "https://www.example.com/Coupon/CouponRecords",
+					"cpn": 4.5
+					"cpnEffectiveDate": "2025-09-02",
+					"secGroup": "CASH",
+					"secType": "LLB",
+					"cpnSource": "ADM"
+				},
+			}
+		}
+	}
+}

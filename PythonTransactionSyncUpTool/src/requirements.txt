@@ -1,0 +1,59 @@
+# Below are the python libraries (or packages) reqired to be installed for running this application.
+# Use below command to install below mentioned packages from PyPI (Python Package Index)
+# pip install -r requirements.txt
+
+
+# === Core database/ORM ===
+SQLAlchemy==2.0.32         # ORM for mapping tables to Python classes (Entities.py)
+pyodbc==5.1.0              # ODBC driver bridge for SQL Server connection
+python-tds==1.15.0         # Alternative DB driver (pure Python TDS protocol)
+
+
+# === Data processing ===
+pandas==2.2.2              # Data analysis and manipulation (used in your code)
+numpy==1.26.2              # Dependency for pandas, numerical operations
+python-dateutil==2.9.0.post0 # Advanced datetime parsing (pandas dependency)
+pytz==2024.1               # Timezone support (pandas dependency)
+tzdata==2024.1             # Timezone database (for Windows + pandas)
+
+
+# === API / HTTP ===
+requests==2.32.3           # Making HTTP calls to APIs (SecurityAPI, CouponAPI)
+urllib3==2.2.2             # HTTP library, dependency for requests
+certifi==2024.8.30         # SSL certificates for requests
+charset-normalizer==3.3.2  # Encoding detection (requests dependency)
+idna==3.8                  # International domain support (requests dependency)
+
+
+# === Utilities ===
+colorama==0.4.6            # Colored console output (better logging visibility)
+typing_extensions==4.8.0   # Extra typing features (used by SQLAlchemy, pydantic, etc.)
+
+
+# === Development & Testing (optional, for dev env only) ===
+pytest==8.2.2              # Unit testing framework
+coverage==7.5.4            # Code coverage reporting
+pluggy==1.5.0              # Plugin system (pytest dependency)
+iniconfig==2.0.0           # Config file support (pytest dependency)
+packaging==24.1            # Version parsing (pytest dependency)
+
+
+# === Packaging / Distribution (optional, for creating exe) ===
+pyinstaller==6.2.0         # Bundle Python app into a standalone EXE
+pyinstaller-hooks-contrib==2023.10 # Extra PyInstaller hooks
+pefile==2023.2.7           # PE file parsing (Windows, PyInstaller dep)
+pywin32-ctypes==0.2.2      # Windows DLL/COM support (PyInstaller dep)
+
+
+# === Virtual environment helpers (optional) ===
+virtualenv==20.26.3        # Create virtual environments
+pipenv==2024.0.1           # Alternative environment/packaging manager
+distlib==0.3.8             # Dependency for virtualenv
+filelock==3.15.4           # File locking utility (pipenv/virtualenv dep)
+platformdirs==4.2.2        # OS-specific dirs (virtualenv dep)
+altgraph==0.17.4           # Graph lib used internally by PyInstaller
+greenlet==3.0.1            # Used by SQLAlchemy for async/eventlet support
+
+
+# For better .env/config handling (optional)
+python-decouple==3.8

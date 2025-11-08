@@ -1,0 +1,30 @@
+Python Setup in VSC
+-------------------
+
+
+1. Download latest version of python from below - https://www.python.org/downloads/?utm_source=chatgpt.com
+2. Install it.
+3. Download/Install Python By Microsoft extension inside Visual Studio Code.
+4. Create one project folder.
+5. Open folder using VSC.
+6. Create virtual environment (one per project). It keeps project packages separate. Also upgrade pip its a good practice (good hygience)
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1		(Python terminal using powershell as default)
+   python -m pip install --upgrade pip
+  
+7. Always check correct python interpreter is selected
+   open any .py file --> bottom right corner it should come like 3.11.9 (venv)
+   
+8. Install all project dependencies/packages using below commands - 
+   pip install -r requirements.txt
+   
+9. Always we should use PyInstaller for building .exe to deploy it on different server. So, that (venv) do not needs to be deployed.
+
+
+
+Importants commands:
+--------------------
+	. pip list
+	. python --version
+	. cd src
+	. cd ..

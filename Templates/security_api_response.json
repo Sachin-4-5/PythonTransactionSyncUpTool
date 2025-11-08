@@ -1,0 +1,15 @@
+{
+	"assetByAssetId": {
+		"ADSB123SK": {
+			"assetId": "ADSB123SK",
+			"CASH_REP": {
+				"accrualDt": "2025-06-27",
+				"country": "DEN",
+				"couponFloat":4.0,
+				"cpnType":"T",
+				"currency":"INR",
+				"bond":"ADSB123SK"
+			}
+		}
+	}
+}
