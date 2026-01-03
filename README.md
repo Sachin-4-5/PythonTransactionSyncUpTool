@@ -1,13 +1,16 @@
-# PythonTransactionSyncUpTool
+## PythonTransactionSyncUpTool
 
-## 📖 Overview  
-A command-line Python application that integrates database transactions with third-party APIs to enrich and transform financial data before storing it into database tables. Built for automation and reliability in data synchronization processes. A lightweight, Python-driven data integration engine that fuses transaction data from databases and APIs into a single unified structure. Ideal for ETL-style workflows where accuracy, performance, and reusability matter.
+
+### 📖 Overview  
+A command-line Python application that integrates database transactions with third-party APIs to enrich and transform financial data before storing it into database tables. 
+Built for automation and reliability in data synchronization processes. A lightweight, Python-driven data integration engine that fuses transaction data from databases and APIs into a single unified structure. Ideal for ETL-style workflows where accuracy, performance, and reusability matter.
 
 ---
 <br />
 
 
-## 💡 Key Highlights
+
+### 💡 Key Highlights
 
 ✅ Fetches transactions from source DB. <br />
 ✅ Integrates with two external APIs for data enrichment. <br />
@@ -21,7 +24,8 @@ A command-line Python application that integrates database transactions with thi
 <br />
 
 
-## ⚡Technology Used
+
+### ⚡Technology Used
 ✅ Language: Python 3.x <br />
 ✅ Database: SQL Server <br />
 ✅ APIs: RESTful services <br />
@@ -31,7 +35,8 @@ A command-line Python application that integrates database transactions with thi
 <br />
 
 
-## 🎓 Project Structure
+
+### 📁 Project Structure
 ```
 PythonTransactionSyncUpTool
 │
@@ -54,7 +59,8 @@ PythonTransactionSyncUpTool
 <br />
 
 
-## ▶️ How to run the project ?
+
+### ▶️ How to run the project ?
 1️⃣ Clone the Repository - <b>git clone https://github.com/Sachin-4-5/PythonTransactionSyncUpTool </b> <br />
 2️⃣ Execute the provided SQL script (DBScript.sql) to create required tables and seed sample data. <br />
 3️⃣ Open the config file and update the required details as per your need. <br />
@@ -65,7 +71,8 @@ PythonTransactionSyncUpTool
 <br />
 
 
-## 🤝 Contribution
+
+### 🤝 Contribution
 Pull requests are welcome! To contribute:
 
 1️⃣ Fork the repo <br />
@@ -76,3 +83,8 @@ Pull requests are welcome! To contribute:
 
 ---
 <br />
+
+
+
+
+
