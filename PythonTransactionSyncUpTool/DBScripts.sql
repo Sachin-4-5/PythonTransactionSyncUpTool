@@ -2,7 +2,7 @@
 -- Author: Sachin Kumar
 -- Created on: 2025-08-30
 -- Purpose: Db Script for PythonConsoleApp
--- Database & Table & Stored Proc scripts.
+-- Db, Table, Sp Scripts
 -- =======================================
 
 
